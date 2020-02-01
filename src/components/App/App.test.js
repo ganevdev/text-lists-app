@@ -3,8 +3,8 @@ import React from 'react';
 
 import App from './App';
 
-test('renders: CRA Template Ganevru', () => {
+test('renders: Все Компоненты', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/CRA Template Ganevru/i);
+  const linkElement = getByText(/Все Компоненты/i);
   expect(linkElement).toBeInTheDocument();
 });
