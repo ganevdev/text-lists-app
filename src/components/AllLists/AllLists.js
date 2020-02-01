@@ -1,19 +1,14 @@
 import React, { useEffect, useState } from 'react';
 
 import OneList from '../OneList';
-// @ts-ignore
-import json from './json.json';
-
-const jsonEx = json;
 
 function AllLists() {
-  const [state, setState] = useState(jsonEx);
-  // TODO - обращение к API
-  // useEffect(() => {
-  //   fetch('https://jsonplaceholder.typicode.com/todos')
-  //     .then((response) => response.json())
-  //     .then((response) => setState(response));
-  // }, []);
+  const [state, setState] = useState([]);
+  useEffect(() => {
+    fetch('https://my-json-server.typicode.com/Ganevru/text-lists-app-api/data')
+      .then((response) => response.json())
+      .then((response) => setState(response));
+  }, []);
 
   return (
     <>

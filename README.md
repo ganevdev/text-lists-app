@@ -1,5 +1,3 @@
-# Create React App Ganevru
+# text-lists-app
 
-More about templates: https://create-react-app.dev/docs/custom-templates
-
-Repo: https://github.com/ganevru/cra-template-ganevru#readme
+"API": https://github.com/Ganevru/text-lists-app-api
