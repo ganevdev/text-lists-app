@@ -2,4 +2,4 @@
 
 API: https://github.com/Ganevru/text-lists-app-api
 
-Link: https://text-lists-app.now.sh/
+Demo Link: https://text-lists-app.now.sh/
